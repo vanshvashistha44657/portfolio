@@ -11,7 +11,7 @@ import tailwindcss from '@tailwindcss/vite'
 //   -> set base to '/'
 //
 // Change ONLY the string below. Everything else is already wired up.
-const REPO_NAME = 'portfolio' // <-- replace with your repository name
+const REPO_NAME = 'https://github.com/vanshvashistha44657/portfolio.git' // <-- replace with your repository name
 
 export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
