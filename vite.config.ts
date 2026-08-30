@@ -9,11 +9,10 @@ import tailwindcss from '@tailwindcss/vite'
 // If you deploy to https://<username>.github.io/ directly (a repo literally
 // named <username>.github.io)
 //   -> set base to '/'
-//
-// Change ONLY the string below. Everything else is already wired up.
-const REPO_NAME = 'https://github.com/vanshvashistha44657/portfolio.git' // <-- replace with your repository name
+
+const REPO_NAME = 'portfolio'
 
 export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
-  base: command === 'build' ? `/${'portfolio'}/` : '/',
+  base: command === 'build' ? `/${REPO_NAME}/` : '/',
 }))
