@@ -15,5 +15,5 @@ const REPO_NAME = 'https://github.com/vanshvashistha44657/portfolio.git' // <-- 
 
 export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
-  base: command === 'build' ? `/${REPO_NAME}/` : '/',
+  base: command === 'build' ? `/${'Portfolio'}/` : '/',
 }))
