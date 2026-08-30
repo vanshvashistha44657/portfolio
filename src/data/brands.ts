@@ -7,16 +7,40 @@
 
 export type Brand = {
   name: string;
-  logo: string; // "/images/logos/your-logo.svg" — leave "" to show a text placeholder
+  logo: string;
 };
 
 export const brands: Brand[] = [
-  { name: "[Dabur]", logo: "public/images/logos/dabur_logo.png" },
-  { name: "[Ultraviolette Automotive]", logo: "public/images/logos/ultraviolette_logo.png" },
-  { name: "[Vedaoils]", logo: "public/images/logos/vedaoils_logo.png" },
-  { name: "[Thums Up]", logo: "public/images/logos/thums-up_logo.png" },
-  { name: "[Foxtale]", logo: "public/images/logos/foxtale_logo.png" },
-  { name: "[Revoue]", logo: "public/images/logos/revoue_logo.png" },
-  { name: "[Bacardi]", logo: "public/images/logos/bacardi_logo.png" },
-  { name: "[1xbet]", logo: "public/images/logos/1xbet_logo.png" },
+  {
+    name: "[Dabur]",
+    logo: `${import.meta.env.BASE_URL}images/logos/dabur_logo.png`,
+  },
+  {
+    name: "[Ultraviolette Automotive]",
+    logo: `${import.meta.env.BASE_URL}images/logos/ultraviolette_logo.png`,
+  },
+  {
+    name: "[Vedaoils]",
+    logo: `${import.meta.env.BASE_URL}images/logos/vedaoils_logo.png`,
+  },
+  {
+    name: "[Thums Up]",
+    logo: `${import.meta.env.BASE_URL}images/logos/thums-up_logo.png`,
+  },
+  {
+    name: "[Foxtale]",
+    logo: `${import.meta.env.BASE_URL}images/logos/foxtale_logo.png`,
+  },
+  {
+    name: "[Revoue]",
+    logo: `${import.meta.env.BASE_URL}images/logos/revoue_logo.png`,
+  },
+  {
+    name: "[Bacardi]",
+    logo: `${import.meta.env.BASE_URL}images/logos/bacardi_logo.png`,
+  },
+  {
+    name: "[1xbet]",
+    logo: `${import.meta.env.BASE_URL}images/logos/1xbet_logo.png`,
+  },
 ];
