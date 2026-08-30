@@ -79,11 +79,7 @@ export function Navbar() {
                 );
               })}
               <li>
-                <a
-                  href="/music.html"
-                  data-cursor="hover"
-                  className="relative px-4 py-2 text-sm rounded-full text-[var(--color-ink-dim)] hover:text-[var(--color-ink)] transition-colors"
-                >
+                <a href={`${import.meta.env.BASE_URL}music.html`}>
                   Music
                 </a>
               </li>
@@ -143,11 +139,7 @@ export function Navbar() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.05 * navItems.length, duration: 0.4 }}
               >
-                <a
-                  href="/music.html"
-                  onClick={() => setMenuOpen(false)}
-                  className="font-display text-4xl text-[var(--color-ink)]"
-                >
+                <a href={`${import.meta.env.BASE_URL}music.html`}>
                   Music
                 </a>
               </motion.li>
