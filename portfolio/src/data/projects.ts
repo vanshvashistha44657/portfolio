@@ -43,9 +43,9 @@ export const projects: Project[] = [
       "Data visualization",
       "Network / system monitoring",
     ],
-    image: "",
-    liveUrl: "",
-    githubUrl: "",
+    image: "public/images/projects/sentinelsops.jpeg",
+    liveUrl: "https://sentinelops-frontend-y5uh.onrender.com/dashboard",
+    githubUrl: "https://github.com/vanshvashistha44657/sentinelops-frontend ",
   },
   {
     slug: "student-performance-analytics",
@@ -90,9 +90,9 @@ export const projects: Project[] = [
       "Background jobs & push notifications via Celery and FCM",
       "12-route Next.js frontend with Recharts data visualization",
     ],
-    image: "",
-    liveUrl: "",
-    githubUrl: "",
+    image: "public/images/projects/fitmentor_img.jpeg",
+    liveUrl: "https://vanshvashistha44657.github.io/FitMentor-AI/",
+    githubUrl: "https://github.com/vanshvashistha44657/FitMentor-AI",
   },
   // Add project #4 here whenever you're ready — copy the shape above.
 ];

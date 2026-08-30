@@ -7,20 +7,20 @@
 export const personal = {
   name: "Vansh Vashistha",
   initials: "VV",
-  positioning: "Influencer Marketing Manager · Creative Strategist · Technology & AI Enthusiast",
+  positioning: " Cyber Security · Influencer Marketing Manager · Technology & AI Enthusiast",
   heroStatement:
     "I build campaigns, digital experiences and technology-driven ideas that connect brands with people.",
   location: "India",
   // Replace with your real email — never leave the placeholder live.
-  email: "YOUR_EMAIL@example.com",
-  resumeUrl: "", // e.g. "/files/vansh-vashistha-resume.pdf" — leave empty to hide the button
+  email: "vanshvashistha44657@gmail.com",
+  resumeUrl: "images/resume.pdf", // e.g. "/files/vansh-vashistha-resume.pdf" — leave empty to hide the button
 };
 
 export const socials = [
-  { label: "LinkedIn", href: "https://linkedin.com/in/YOUR-USERNAME", icon: "linkedin" },
-  { label: "GitHub", href: "https://github.com/YOUR-USERNAME", icon: "github" },
-  { label: "Instagram", href: "https://instagram.com/YOUR-USERNAME", icon: "instagram" },
-  { label: "X", href: "https://x.com/YOUR-USERNAME", icon: "x" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/vanshvashistha/", icon: "linkedin" },
+  { label: "GitHub", href: "https://github.com/vanshvashistha44657", icon: "github" },
+  { label: "Instagram", href: "https://www.instagram.com/vanshvashistha_/", icon: "instagram" },
+  { label: "X", href: "https://x.com/Vansh44657", icon: "x" },
 ] as const;
 
 export const navItems = [

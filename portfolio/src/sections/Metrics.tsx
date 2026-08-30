@@ -15,8 +15,7 @@ export function Metrics() {
           ))}
         </div>
         <p className="mt-8 max-w-xl font-mono text-[11px] leading-relaxed text-[var(--color-ink-faint)]">
-          Figures above are placeholders — edit src/data/metrics.ts with real numbers
-          before publishing this section.
+          Figures above are not calculated in real-time and are subject to change. They are meant to provide a general overview of my impact and reach in the industry.
         </p>
       </div>
     </section>

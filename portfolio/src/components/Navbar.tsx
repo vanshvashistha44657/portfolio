@@ -78,6 +78,15 @@ export function Navbar() {
                   </li>
                 );
               })}
+              <li>
+                <a
+                  href="/music.html"
+                  data-cursor="hover"
+                  className="relative px-4 py-2 text-sm rounded-full text-[var(--color-ink-dim)] hover:text-[var(--color-ink)] transition-colors"
+                >
+                  Music
+                </a>
+              </li>
             </ul>
 
             <a
@@ -129,6 +138,19 @@ export function Navbar() {
                   </a>
                 </motion.li>
               ))}
+              <motion.li
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.05 * navItems.length, duration: 0.4 }}
+              >
+                <a
+                  href="/music.html"
+                  onClick={() => setMenuOpen(false)}
+                  className="font-display text-4xl text-[var(--color-ink)]"
+                >
+                  Music
+                </a>
+              </motion.li>
             </motion.ul>
           </motion.div>
         )}

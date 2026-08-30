@@ -10,15 +10,16 @@ export type SkillCategory = {
 };
 
 export const skillCategories: SkillCategory[] = [
+
   {
-    label: "Marketing",
-    code: "MKT",
+    label: "Cybersecurity",
+    code: "SOC",
     skills: [
-      "Influencer Marketing",
-      "Creator Management",
-      "Campaign Strategy",
-      "Brand Partnerships",
-      "Creative Strategy",
+      "Security Monitoring",
+      "Network Concepts",
+      "Threat Detection",
+      "Security Dashboards",
+      "Authentication & Access Control",
     ],
   },
   {
@@ -29,16 +30,18 @@ export const skillCategories: SkillCategory[] = [
   {
     label: "AI",
     code: "AI",
-    skills: ["AI Tools", "AI-Assisted Development", "Automation", "Analytics"],
+    skills: ["AI Tools", "AI-Assisted Development", "Automation", "Analytics", "Machine Learning Concepts"],
   },
-  {
-    label: "Cybersecurity",
-    code: "SEC",
+
+    {
+    label: "Marketing",
+    code: "MKT",
     skills: [
-      "Security Monitoring",
-      "Network Concepts",
-      "Threat Detection",
-      "Security Dashboards",
+      "Influencer Marketing",
+      "Creator Management",
+      "Campaign Strategy",
+      "Brand Partnerships",
+      "Creative Strategy",
     ],
   },
 ];

@@ -11,8 +11,8 @@ export type Metric = {
 };
 
 export const metrics: Metric[] = [
-  { value: "[50]+", label: "Creators Collaborated With" },
-  { value: "[10M]+", label: "Cumulative Reach" },
-  { value: "[₹XX L]+", label: "Campaign Budget Managed" },
-  { value: "[XX]+", label: "Campaigns Delivered" },
+  { value: "[1000]+", label: "Creators Collaborated With" },
+  { value: "[50M]+", label: "Cumulative Reach" },
+  { value: "[₹50L]+", label: "Campaign Budget Managed" },
+  { value: "[50]+", label: "Campaigns Delivered" },
 ];

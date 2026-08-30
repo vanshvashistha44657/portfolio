@@ -5,7 +5,7 @@ import { brands } from "../data/brands";
 export function Brands() {
   if (brands.length === 0) return null;
   const reduceMotion = useReducedMotion();
-  const track = [...brands, ...brands];
+  const track = [...brands, ...brands, ...brands, ...brands, ...brands, ...brands]; // Repeat the brands to create a seamless marquee
 
   return (
     <section className="relative border-t border-[var(--color-line)] py-20">
@@ -21,12 +21,12 @@ export function Brands() {
         <motion.div
           className="flex w-max items-center gap-16"
           animate={reduceMotion ? undefined : { x: ["0%", "-50%"] }}
-          transition={reduceMotion ? undefined : { duration: 28, ease: "linear", repeat: Infinity }}
+          transition={reduceMotion ? undefined : { duration: 38, ease: "linear", repeat: Infinity }}
         >
           {track.map((brand, i) => (
             <div
               key={`${brand.name}-${i}`}
-              className="flex h-12 shrink-0 items-center justify-center px-4 font-mono text-sm tracking-wide text-[var(--color-ink-faint)] grayscale transition-all hover:grayscale-0 hover:text-[var(--color-ink)]"
+              className="flex h-12 shrink-0 items-center justify-center px-4 font-mono text-sm tracking-wide text-[var(--color-ink-faint)]  "
             >
               {brand.logo ? (
                 <img src={brand.logo} alt={brand.name} className="h-8 w-auto" />
