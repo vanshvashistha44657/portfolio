@@ -48,7 +48,7 @@ export function About() {
           <div className="md:col-span-5 md:col-start-9">
             <Reveal delay={0.1} className="relative">
               <div className="aspect-[4/5] w-full overflow-hidden rounded-2xl border border-[var(--color-line)] bg-[var(--color-surface)]">
-                <img src="public/images/profile/your-photo.jpg" alt="Profile Image" className="h-full w-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}images/profile/your-photo.jpg`} alt="Profile Image" className="h-full w-full object-cover"/>
                 <div className="flex h-full w-full items-center justify-center">
                   <span className="font-mono text-xs tracking-widest text-[var(--color-ink-faint)]">
                     PROFILE IMAGE
