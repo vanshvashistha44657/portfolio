@@ -19,7 +19,7 @@ export const personal = {
 export const socials = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/vanshvashistha/", icon: "linkedin" },
   { label: "GitHub", href: "https://github.com/vanshvashistha44657", icon: "github" },
-  { label: "Instagram", href: "https://www.instagram.com/vanshvashistha_/", icon: "instagram" },
+  { label: "Instagram", href: "https://www.instagram.com/vanshu.mp3/", icon: "instagram" },
   { label: "X", href: "https://x.com/Vansh44657", icon: "x" },
 ] as const;
 

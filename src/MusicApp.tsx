@@ -9,6 +9,8 @@ import { TrackList } from "./components/music/TrackList";
 import { MagneticButton } from "./components/MagneticButton";
 import { CustomCursor } from "./components/CustomCursor";
 import { personal } from "./data/personal";
+import { socials } from "./data/personal";
+import { brandIcons } from "./components/BrandIcons";
 
 
 function getAudioMime(src: string) {
@@ -46,6 +48,8 @@ function MusicApp() {
   } = useAudioPlayer(tracks);
 
   const VolumeIcon = volume === 0 ? VolumeX : volume < 0.5 ? Volume1 : Volume2;
+  const instagram = socials.find((social) => social.icon === "instagram");
+  const InstagramIcon = instagram ? brandIcons[instagram.icon] : null;
 
   return (
     <div className="relative min-h-[100svh] overflow-hidden bg-[var(--color-bg)] text-[var(--color-ink)] grain">
@@ -77,9 +81,23 @@ function MusicApp() {
         >
           <ArrowLeft size={14} /> BACK TO PORTFOLIO
         </a>
-        <span className="font-mono text-xs tracking-widest text-[var(--color-ink-faint)]">
-          {personal.initials} / MUSIC
-        </span>
+        <div className="flex items-center gap-5">
+          {instagram && InstagramIcon && (
+            <a
+              href={instagram.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={instagram.label}
+              data-cursor="hover"
+              className="text-[var(--color-ink-dim)] transition-colors hover:text-[var(--color-accent)]"
+            >
+              <InstagramIcon size={19} />
+            </a>
+          )}
+          <span className="font-mono text-xs tracking-widest text-[var(--color-ink-faint)]">
+            {personal.initials} / MUSIC
+          </span>
+        </div>
       </header>
 
       <main className="mx-auto max-w-7xl px-6 pb-40 pt-14 md:pt-20">
