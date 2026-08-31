@@ -38,14 +38,14 @@ export function Experience() {
                 <span className="absolute left-0 top-1.5 h-3.5 w-3.5 rounded-full border-2 border-[var(--color-accent)] bg-[var(--color-bg)] sm:h-5 sm:w-5" />
 
                 <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-                  <span className="font-display text-2xl text-[var(--color-ink-faint)]">{entry.year}</span>
+                  <span className="font-display text-2xl text-[var(--color-ink-faint)]">{entry.session}</span>
                   <span className="font-mono text-xs tracking-widest text-[var(--color-ink-faint)]">
                     {entry.duration}
                   </span>
                 </div>
 
                 <h3 className="mt-2 font-display text-xl font-medium text-[var(--color-ink)] sm:text-2xl">
-                  {entry.role} <span className="text-[var(--color-ink-dim)]">— {entry.company}</span>
+                  {entry.course} <span className="text-[var(--color-ink-dim)];">— {entry.company}</span>
                 </h3>
 
                 <p className="mt-3 max-w-2xl text-sm text-[var(--color-ink-dim)]">{entry.summary}</p>
