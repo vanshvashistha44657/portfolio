@@ -6,8 +6,8 @@
 // ---------------------------------------------------------------------------
 
 export type ExperienceEntry = {
-  year: string;
-  role: string;
+  session: string;
+  course: string;
   company: string;
   duration: string;
   summary: string;
@@ -16,27 +16,39 @@ export type ExperienceEntry = {
 
 export const experience: ExperienceEntry[] = [
   {
-    year: "2026",
-    role: "[YOUR ROLE / TITLE]",
-    company: "[COMPANY NAME]",
-    duration: "[MONTH YEAR — PRESENT]",
-    summary: "[One or two lines on the scope of this role — what you owned.]",
+    session: "2026 — 2027",
+    course: "MCA ",
+    company: "Institute of Technology & Science, Ghaziabad",
+    duration: "[2025-PRESENT]",
+    summary: "MASTER OF COMPUTER APPLICATIONS (MCA) ",
     achievements: [
-      "[Campaign or project you led]",
-      "[A measurable result or metric]",
-      "[A tool, process or partnership you built]",
+      "Current CGPA: 68.33%",
+      "Building projects across Python, web development, cybersecurity & databases",
+      "Expected graduation: 2027",
     ],
   },
   {
-    year: "2025",
-    role: "[YOUR ROLE / TITLE]",
-    company: "[COMPANY / ORGANIZATION NAME]",
-    duration: "[MONTH YEAR — MONTH YEAR]",
-    summary: "[One or two lines on the scope of this role.]",
+    session: "2022 — 2025",
+    course: "BCA",
+    company: "IPEM GZB , CCS  UNIVERSITY",
+    duration: "2022-2025",
+    summary: "BACHELOR OF COMPUTER APPLICATIONS (BCA)",
     achievements: [
-      "[Campaign or project]",
-      "[Result or metric]",
+      "Percentage: 60%",
+      "Developed practical programming and web-based projects", 
+      "Strengthened fundamentals in Python, programming, databases & web technologies"
     ],
   },
-  // Add earlier roles below in the same shape.
+  {
+    session: "2021 — 2022",
+    course: "CLASS XII",
+    company: "Dewan Public School, Meerut",
+    duration: "2021-2022",
+    summary: "CLASS XII (Commerce Stream)",
+    achievements: [
+      "Percentage: 63.6%",
+      "CBSE", 
+      "Completed senior secondary education with a foundation in Commerce with Music, economics and business studies."
+    ],
+  },
 ];
