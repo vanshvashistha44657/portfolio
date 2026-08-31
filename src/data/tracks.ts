@@ -22,14 +22,16 @@ export type Track = {
   tag?: string; // short label, e.g. "Original" · "Remix" · "Demo"
 };
 
+const baseUrl = import.meta.env.BASE_URL;
+
 export const tracks: Track[] = [
     {
     id: "track-01",
     title: "wafa ne bewafai ",
     artist: "Vansh Vashistha",
     duration: "0:58",
-    src: "/audio/wafa_ne_bewafai.mp3",
-    cover: "/images/profile/music_cover.jpg",
+    src: `${baseUrl}audio/wafa_ne_bewafai.mp3`,
+    cover: `${baseUrl}images/profile/music_cover.jpg`,
     tag: "Cover",
   },
   
@@ -38,8 +40,8 @@ export const tracks: Track[] = [
     title: "Stay ",
     artist: "Vansh Vashistha",
     duration: "1:32",
-    src: "/audio/stay.mp3",
-    cover: "/images/profile/music_cover.jpg",
+    src: `${baseUrl}audio/stay.mp3`,
+    cover: `${baseUrl}images/profile/music_cover.jpg`,
     tag: "Cover",
   },
 
@@ -48,8 +50,8 @@ export const tracks: Track[] = [
     title: "Its you ",
     artist: "Vansh Vashistha",
     duration: "2:11",
-    src: "/audio/its_you.mp3",
-    cover: "/images/profile/music_cover.jpg",
+    src: `${baseUrl}audio/its_you.mp3`,
+    cover: `${baseUrl}images/profile/music_cover.jpg`,
     tag: "Cover",
   },
 
@@ -58,8 +60,8 @@ export const tracks: Track[] = [
     title: " Give Me Some Sunshine",
     artist: "Vansh Vashistha",
     duration: "2:11",
-    src: "/audio/give_me_some_sunshine.mp3",
-    cover: "/images/profile/music_cover.jpg",
+    src: `${baseUrl}audio/give_me_some_sunshine.mp3`,
+    cover: `${baseUrl}images/profile/music_cover.jpg`,
     tag: "Cover",
   },
   {
@@ -67,8 +69,8 @@ export const tracks: Track[] = [
     title: "Stero Hearts x Daru Desi",
     artist: "Vansh Vashistha",
     duration: "0:57",
-    src: "/audio/stereo_hearts_x_daru_desi.mp3",
-    cover: "/images/profile/music_cover.jpg",
+    src: `${baseUrl}audio/stereo_hearts_x_daru_desi.mp3`,
+    cover: `${baseUrl}images/profile/music_cover.jpg`,
     tag: "Cover",
   },
   // Add more tracks here — copy the shape above.

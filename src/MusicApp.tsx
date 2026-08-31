@@ -71,7 +71,7 @@ function MusicApp() {
 
       <header className="mx-auto flex max-w-7xl items-center justify-between px-6 pt-8">
         <a
-          href="/"
+          href={import.meta.env.BASE_URL}
           data-cursor="hover"
           className="flex items-center gap-2 font-mono text-xs tracking-widest text-[var(--color-ink-dim)] transition-colors hover:text-[var(--color-ink)]"
         >
