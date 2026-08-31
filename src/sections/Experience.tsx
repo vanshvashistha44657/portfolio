@@ -15,11 +15,11 @@ export function Experience() {
     <section id="experience" className="relative border-t border-[var(--color-line)] px-6 py-28 md:py-36">
       <div className="mx-auto max-w-7xl">
         <Reveal>
-          <p className="font-mono text-xs tracking-[0.25em] text-[var(--color-accent)]">EXPERIENCE</p>
+          <p className="font-mono text-xs tracking-[0.25em] text-[var(--color-accent)]">EDUCATION</p>
         </Reveal>
         <Reveal delay={0.05}>
           <h2 className="mt-4 max-w-2xl text-balance font-display text-[clamp(1.75rem,4vw,3rem)] font-medium text-[var(--color-ink)]">
-            Where the strategy met the shipping.
+            Where curiosity became capability.
           </h2>
         </Reveal>
 
