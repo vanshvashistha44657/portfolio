@@ -16,7 +16,7 @@ export type ExperienceEntry = {
 
 export const experience: ExperienceEntry[] = [
   {
-    session: "2026 — 2027",
+    session: "2025 — 2027",
     course: "MCA ",
     company: "Institute of Technology & Science, Ghaziabad",
     duration: "[2025-PRESENT]",
