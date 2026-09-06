@@ -33,7 +33,9 @@ export function Contact() {
         <Reveal delay={0.25} className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <MagneticButton
             as="a"
-            href={`mailto:${personal.email}`}
+            href={`https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=${personal.email}&su=Let's%20Build%20Something`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-[var(--color-ink)] px-7 py-3.5 text-sm font-medium text-[var(--color-bg)] transition-colors hover:bg-[var(--color-accent)]"
           >
             <Mail size={16} /> Get in Touch
