@@ -21,7 +21,6 @@ export const socials = [
   { label: "GitHub", href: "https://github.com/vanshvashistha44657", icon: "github" },
   { label: "Instagram", href: "https://www.instagram.com/vanshu.mp3/", icon: "instagram" },
   { label: "X", href: "https://x.com/Vansh44657", icon: "x" },
-  { label: "email", href: "https://Gmail.com/vanshvashistha44657", icon: "gmail" },
 ] as const;
 
 export const navItems = [
